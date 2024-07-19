@@ -1,0 +1,94 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/back-image.png);
+    background-position: center;
+    background-size: cover;
+    padding: 5px 10px;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.download-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    color: white;
+    background-color: rgb(153, 18, 153);
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+
+}
+
+.content {
+    margin: 120px 0px 0px 160px;
+    font-size: 40px;
+}
+
+.para {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+}
+
+.join-btn {
+    display: inline-block;
+    color: #333;
+    color: white;
+    background-color: rgb(153, 18, 153);
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    cursor: pointer;
+}
+
+.image {
+    width: 350px;
+    height: 648px;
+}
